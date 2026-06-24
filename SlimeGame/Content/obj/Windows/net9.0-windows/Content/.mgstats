@@ -1,0 +1,4 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/wmcar/Documents/VSRepos/SlimeGame/Content/images/atlas-definitions.xml","C:\Users\wmcar\Documents\VSRepos\SlimeGame\Content\bin\Windows\Content\images/atlas-definition.xml","CopyItem","File",258,258,0.002
+"C:/Users/wmcar/Documents/VSRepos/SlimeGame/Content/images/atlas.png","C:/Users/wmcar/Documents/VSRepos/SlimeGame/Content/bin/Windows/Content/images/atlas.xnb","TextureProcessor","Texture2DContent",590,16469,0.0863189
+"C:/Users/wmcar/Documents/VSRepos/SlimeGame/Content/images/logo.png","C:/Users/wmcar/Documents/VSRepos/SlimeGame/Content/bin/Windows/Content/images/logo.xnb","TextureProcessor","Texture2DContent",16734,311381,0.0133692

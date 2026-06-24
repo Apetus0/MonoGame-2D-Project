@@ -1,0 +1,12 @@
+C:\Users\wmcar\Documents\VSRepos\MonoGameLibrary\bin\Debug\net9.0-windows\MonoGameLibrary.deps.json
+C:\Users\wmcar\Documents\VSRepos\MonoGameLibrary\bin\Debug\net9.0-windows\MonoGameLibrary.dll
+C:\Users\wmcar\Documents\VSRepos\MonoGameLibrary\bin\Debug\net9.0-windows\MonoGameLibrary.pdb
+C:\Users\wmcar\Documents\VSRepos\MonoGameLibrary\obj\Debug\net9.0-windows\MonoGameLibrary.csproj.AssemblyReference.cache
+C:\Users\wmcar\Documents\VSRepos\MonoGameLibrary\obj\Debug\net9.0-windows\MonoGameLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wmcar\Documents\VSRepos\MonoGameLibrary\obj\Debug\net9.0-windows\MonoGameLibrary.AssemblyInfoInputs.cache
+C:\Users\wmcar\Documents\VSRepos\MonoGameLibrary\obj\Debug\net9.0-windows\MonoGameLibrary.AssemblyInfo.cs
+C:\Users\wmcar\Documents\VSRepos\MonoGameLibrary\obj\Debug\net9.0-windows\MonoGameLibrary.csproj.CoreCompileInputs.cache
+C:\Users\wmcar\Documents\VSRepos\MonoGameLibrary\obj\Debug\net9.0-windows\MonoGameLibrary.dll
+C:\Users\wmcar\Documents\VSRepos\MonoGameLibrary\obj\Debug\net9.0-windows\refint\MonoGameLibrary.dll
+C:\Users\wmcar\Documents\VSRepos\MonoGameLibrary\obj\Debug\net9.0-windows\MonoGameLibrary.pdb
+C:\Users\wmcar\Documents\VSRepos\MonoGameLibrary\obj\Debug\net9.0-windows\ref\MonoGameLibrary.dll
