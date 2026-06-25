@@ -7,6 +7,24 @@
       "RelativeMoniker": "D:0:0:{904BDF8B-DAA5-BBDC-31E5-6A5454A4B94D}|SlimeGame.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{423A1827-348E-5A4B-8754-EB1A30396626}|..\\MonoGameLibrary\\MonoGameLibrary.csproj|c:\\users\\gaymer\\source\\repos\\monogame-2d-project\\monogamelibrary\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{423A1827-348E-5A4B-8754-EB1A30396626}|..\\MonoGameLibrary\\MonoGameLibrary.csproj|c:\\users\\gaymer\\source\\repos\\monogame-2d-project\\monogamelibrary\\input\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{423A1827-348E-5A4B-8754-EB1A30396626}|..\\MonoGameLibrary\\MonoGameLibrary.csproj|c:\\users\\gaymer\\source\\repos\\monogame-2d-project\\monogamelibrary\\input\\gamepadinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{423A1827-348E-5A4B-8754-EB1A30396626}|..\\MonoGameLibrary\\MonoGameLibrary.csproj|c:\\users\\gaymer\\source\\repos\\monogame-2d-project\\monogamelibrary\\input\\mouseinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{423A1827-348E-5A4B-8754-EB1A30396626}|..\\MonoGameLibrary\\MonoGameLibrary.csproj|c:\\users\\gaymer\\source\\repos\\monogame-2d-project\\monogamelibrary\\input\\mousebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{423A1827-348E-5A4B-8754-EB1A30396626}|..\\MonoGameLibrary\\MonoGameLibrary.csproj|c:\\users\\gaymer\\source\\repos\\monogame-2d-project\\monogamelibrary\\input\\keyboardinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{423A1827-348E-5A4B-8754-EB1A30396626}|..\\MonoGameLibrary\\MonoGameLibrary.csproj|c:\\users\\gaymer\\source\\repos\\monogame-2d-project\\monogamelibrary\\graphics\\animation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -24,10 +42,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{423A1827-348E-5A4B-8754-EB1A30396626}|..\\MonoGameLibrary\\MonoGameLibrary.csproj|c:\\users\\gaymer\\source\\repos\\monogame-2d-project\\monogamelibrary\\monogamelibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{904BDF8B-DAA5-BBDC-31E5-6A5454A4B94D}|SlimeGame.csproj|c:\\users\\gaymer\\source\\repos\\monogame-2d-project\\slimegame\\content\\images\\atlas-definitions.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{904BDF8B-DAA5-BBDC-31E5-6A5454A4B94D}|SlimeGame.csproj|solutionrelative:content\\images\\atlas-definitions.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{904BDF8B-DAA5-BBDC-31E5-6A5454A4B94D}|SlimeGame.csproj|c:\\users\\gaymer\\source\\repos\\monogame-2d-project\\slimegame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -158,6 +172,88 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Core.cs",
+              "DocumentMoniker": "C:\\Users\\Gaymer\\source\\repos\\MonoGame-2D-Project\\MonoGameLibrary\\Core.cs",
+              "RelativeDocumentMoniker": "..\\MonoGameLibrary\\Core.cs",
+              "ToolTip": "C:\\Users\\Gaymer\\source\\repos\\MonoGame-2D-Project\\MonoGameLibrary\\Core.cs",
+              "RelativeToolTip": "..\\MonoGameLibrary\\Core.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAwGYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T20:51:58.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InputManager.cs",
+              "DocumentMoniker": "C:\\Users\\Gaymer\\source\\repos\\MonoGame-2D-Project\\MonoGameLibrary\\Input\\InputManager.cs",
+              "RelativeDocumentMoniker": "..\\MonoGameLibrary\\Input\\InputManager.cs",
+              "ToolTip": "C:\\Users\\Gaymer\\source\\repos\\MonoGame-2D-Project\\MonoGameLibrary\\Input\\InputManager.cs",
+              "RelativeToolTip": "..\\MonoGameLibrary\\Input\\InputManager.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwCcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T20:47:12.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GamePadInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Gaymer\\source\\repos\\MonoGame-2D-Project\\MonoGameLibrary\\Input\\GamePadInfo.cs",
+              "RelativeDocumentMoniker": "..\\MonoGameLibrary\\Input\\GamePadInfo.cs",
+              "ToolTip": "C:\\Users\\Gaymer\\source\\repos\\MonoGame-2D-Project\\MonoGameLibrary\\Input\\GamePadInfo.cs",
+              "RelativeToolTip": "..\\MonoGameLibrary\\Input\\GamePadInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIEAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T20:41:58.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MouseInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Gaymer\\source\\repos\\MonoGame-2D-Project\\MonoGameLibrary\\Input\\MouseInfo.cs",
+              "RelativeDocumentMoniker": "..\\MonoGameLibrary\\Input\\MouseInfo.cs",
+              "ToolTip": "C:\\Users\\Gaymer\\source\\repos\\MonoGame-2D-Project\\MonoGameLibrary\\Input\\MouseInfo.cs",
+              "RelativeToolTip": "..\\MonoGameLibrary\\Input\\MouseInfo.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwBMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T18:46:13.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MouseButton.cs",
+              "DocumentMoniker": "C:\\Users\\Gaymer\\source\\repos\\MonoGame-2D-Project\\MonoGameLibrary\\Input\\MouseButton.cs",
+              "RelativeDocumentMoniker": "..\\MonoGameLibrary\\Input\\MouseButton.cs",
+              "ToolTip": "C:\\Users\\Gaymer\\source\\repos\\MonoGame-2D-Project\\MonoGameLibrary\\Input\\MouseButton.cs",
+              "RelativeToolTip": "..\\MonoGameLibrary\\Input\\MouseButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T18:45:15.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "KeyboardInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Gaymer\\source\\repos\\MonoGame-2D-Project\\MonoGameLibrary\\Input\\KeyboardInfo.cs",
+              "RelativeDocumentMoniker": "..\\MonoGameLibrary\\Input\\KeyboardInfo.cs",
+              "ToolTip": "C:\\Users\\Gaymer\\source\\repos\\MonoGame-2D-Project\\MonoGameLibrary\\Input\\KeyboardInfo.cs",
+              "RelativeToolTip": "..\\MonoGameLibrary\\Input\\KeyboardInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T18:34:14.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Animation.cs",
               "DocumentMoniker": "C:\\Users\\Gaymer\\source\\repos\\MonoGame-2D-Project\\MonoGameLibrary\\Graphics\\Animation.cs",
               "RelativeDocumentMoniker": "..\\MonoGameLibrary\\Graphics\\Animation.cs",
@@ -170,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Sprite.cs",
               "DocumentMoniker": "C:\\Users\\Gaymer\\source\\repos\\MonoGame-2D-Project\\MonoGameLibrary\\Graphics\\Sprite.cs",
               "RelativeDocumentMoniker": "..\\MonoGameLibrary\\Graphics\\Sprite.cs",
@@ -183,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "TextureAtlas.cs",
               "DocumentMoniker": "C:\\Users\\Gaymer\\source\\repos\\MonoGame-2D-Project\\MonoGameLibrary\\Graphics\\TextureAtlas.cs",
               "RelativeDocumentMoniker": "..\\MonoGameLibrary\\Graphics\\TextureAtlas.cs",
@@ -196,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "TextureRegion.cs",
               "DocumentMoniker": "C:\\Users\\Gaymer\\source\\repos\\MonoGame-2D-Project\\MonoGameLibrary\\Graphics\\TextureRegion.cs",
               "RelativeDocumentMoniker": "..\\MonoGameLibrary\\Graphics\\TextureRegion.cs",
@@ -209,7 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "MonoGameLibrary",
               "DocumentMoniker": "C:\\Users\\Gaymer\\source\\repos\\MonoGame-2D-Project\\MonoGameLibrary\\MonoGameLibrary.csproj",
               "RelativeDocumentMoniker": "..\\MonoGameLibrary\\MonoGameLibrary.csproj",
@@ -222,19 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Gaymer\\source\\repos\\MonoGame-2D-Project\\SlimeGame\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Gaymer\\source\\repos\\MonoGame-2D-Project\\SlimeGame\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T01:26:18.711Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "AnimatedSprite.cs",
               "DocumentMoniker": "C:\\Users\\wmcar\\Documents\\VSRepos\\MonoGame 2D Project\\MonoGameLibrary\\Graphics\\AnimatedSprite.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\wmcar\\Documents\\VSRepos\\MonoGame 2D Project\\MonoGameLibrary\\Graphics\\AnimatedSprite.cs",
@@ -246,20 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "atlas-definitions.xml",
-              "DocumentMoniker": "C:\\Users\\Gaymer\\source\\repos\\MonoGame-2D-Project\\SlimeGame\\Content\\images\\atlas-definitions.xml",
-              "RelativeDocumentMoniker": "Content\\images\\atlas-definitions.xml",
-              "ToolTip": "C:\\Users\\Gaymer\\source\\repos\\MonoGame-2D-Project\\SlimeGame\\Content\\images\\atlas-definitions.xml",
-              "RelativeToolTip": "Content\\images\\atlas-definitions.xml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2026-06-25T00:52:52.828Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "Animation.cs",
               "DocumentMoniker": "C:\\Users\\wmcar\\Documents\\VSRepos\\MonoGame 2D Project\\MonoGameLibrary\\Graphics\\Animation.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\wmcar\\Documents\\VSRepos\\MonoGame 2D Project\\MonoGameLibrary\\Graphics\\Animation.cs",
@@ -271,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "Sprite.cs",
               "DocumentMoniker": "C:\\Users\\wmcar\\Documents\\VSRepos\\MonoGame 2D Project\\MonoGameLibrary\\Graphics\\Sprite.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\wmcar\\Documents\\VSRepos\\MonoGame 2D Project\\MonoGameLibrary\\Graphics\\Sprite.cs",
@@ -283,7 +354,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 0,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "C:\\Users\\Gaymer\\source\\repos\\MonoGame-2D-Project\\SlimeGame\\Game1.cs",
+              "RelativeDocumentMoniker": "Game1.cs",
+              "ToolTip": "C:\\Users\\Gaymer\\source\\repos\\MonoGame-2D-Project\\SlimeGame\\Game1.cs",
+              "RelativeToolTip": "Game1.cs",
+              "ViewState": "AgIAAAsBAAAAAAAAAAAswCgBAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T22:29:14.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Gaymer\\source\\repos\\MonoGame-2D-Project\\SlimeGame\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Gaymer\\source\\repos\\MonoGame-2D-Project\\SlimeGame\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T01:26:18.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "TextureAtlas.cs",
               "DocumentMoniker": "C:\\Users\\wmcar\\Documents\\VSRepos\\MonoGame 2D Project\\MonoGameLibrary\\Graphics\\TextureAtlas.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\wmcar\\Documents\\VSRepos\\MonoGame 2D Project\\MonoGameLibrary\\Graphics\\TextureAtlas.cs",
@@ -295,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "TextureRegion.cs",
               "DocumentMoniker": "C:\\Users\\wmcar\\Documents\\VSRepos\\MonoGame 2D Project\\MonoGameLibrary\\Graphics\\TextureRegion.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\wmcar\\Documents\\VSRepos\\MonoGame 2D Project\\MonoGameLibrary\\Graphics\\TextureRegion.cs",
@@ -307,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "Core.cs",
               "DocumentMoniker": "C:\\Users\\wmcar\\Documents\\VSRepos\\MonoGame 2D Project\\MonoGameLibrary\\Core.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\wmcar\\Documents\\VSRepos\\MonoGame 2D Project\\MonoGameLibrary\\Core.cs",
@@ -319,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "TextureAtlas.cs",
               "DocumentMoniker": "C:\\Users\\wmcar\\Documents\\VSRepos\\MonoGameLibrary\\Graphics\\TextureAtlas.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\wmcar\\Documents\\VSRepos\\MonoGameLibrary\\Graphics\\TextureAtlas.cs",
@@ -331,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "Core.cs",
               "DocumentMoniker": "C:\\Users\\wmcar\\Documents\\VSRepos\\MonoGameLibrary\\Core.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\wmcar\\Documents\\VSRepos\\MonoGameLibrary\\Core.cs",
@@ -343,20 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Game1.cs",
-              "DocumentMoniker": "C:\\Users\\Gaymer\\source\\repos\\MonoGame-2D-Project\\SlimeGame\\Game1.cs",
-              "RelativeDocumentMoniker": "Game1.cs",
-              "ToolTip": "C:\\Users\\Gaymer\\source\\repos\\MonoGame-2D-Project\\SlimeGame\\Game1.cs",
-              "RelativeToolTip": "Game1.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAkwIAAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T22:29:14.041Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "SlimeGame.csproj",
               "DocumentMoniker": "C:\\Users\\Gaymer\\source\\repos\\MonoGame-2D-Project\\SlimeGame\\SlimeGame.csproj",
               "RelativeDocumentMoniker": "SlimeGame.csproj",
