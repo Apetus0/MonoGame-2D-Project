@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wmcar\\Documents\\VSRepos\\MonoGameLibrary\\MonoGameLibrary.csproj": {}
+    "C:\\Users\\wmcar\\Documents\\VSRepos\\MonoGame 2D Project\\MonoGameLibrary\\MonoGameLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wmcar\\Documents\\VSRepos\\MonoGameLibrary\\MonoGameLibrary.csproj": {
+    "C:\\Users\\wmcar\\Documents\\VSRepos\\MonoGame 2D Project\\MonoGameLibrary\\MonoGameLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wmcar\\Documents\\VSRepos\\MonoGameLibrary\\MonoGameLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\wmcar\\Documents\\VSRepos\\MonoGame 2D Project\\MonoGameLibrary\\MonoGameLibrary.csproj",
         "projectName": "MonoGameLibrary",
-        "projectPath": "C:\\Users\\wmcar\\Documents\\VSRepos\\MonoGameLibrary\\MonoGameLibrary.csproj",
+        "projectPath": "C:\\Users\\wmcar\\Documents\\VSRepos\\MonoGame 2D Project\\MonoGameLibrary\\MonoGameLibrary.csproj",
         "packagesPath": "C:\\Users\\wmcar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wmcar\\Documents\\VSRepos\\MonoGameLibrary\\obj\\",
+        "outputPath": "C:\\Users\\wmcar\\Documents\\VSRepos\\MonoGame 2D Project\\MonoGameLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

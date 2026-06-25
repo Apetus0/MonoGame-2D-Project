@@ -7,10 +7,17 @@ namespace SlimeGame
 {
     public class Game1 : Core
     {
-        // texture region that defines the slime sprite in the atlas.
-        private TextureRegion _slime;
-        // texture region that defines the bat sprite in the atlas.
-        private TextureRegion _bat;
+        // Defines the slime sprite.
+        private Sprite _slime;
+
+        // Defines the bat sprite.
+        private Sprite _bat;
+
+
+        //// texture region that defines the slime sprite in the atlas.
+        //private TextureRegion _slime;
+        //// texture region that defines the bat sprite in the atlas.
+        //private TextureRegion _bat;
 
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
@@ -32,7 +39,7 @@ namespace SlimeGame
 
         protected override void LoadContent()
         {
-            _logo = Content.Load<Texture2D>("images/logo");
+            //_logo = Content.Load<Texture2D>("images/logo");
 
             // Load the atlas texture using the content manager
             //Texture2D atlasTexture = Content.Load<Texture2D>("images/atlas");
@@ -44,16 +51,23 @@ namespace SlimeGame
             TextureAtlas atlas = TextureAtlas.FromFile(Content, "images/atlas-definition.xml");
 
 
-            //// add the slime region to the atlas.
-            //atlas.AddRegion("slime", 0, 0, 20, 20);
+            ////// add the slime region to the atlas.
+            ////atlas.AddRegion("slime", 0, 0, 20, 20);
 
-            //// add the bat region to the atlas.
-            //atlas.AddRegion("bat", 20, 0, 20, 20);
-            // retrieve the slime region from the atlas.
-            _slime = atlas.GetRegion("slime");
-            // retrieve the bat region from the atlas.
-            _bat = atlas.GetRegion("bat");
+            ////// add the bat region to the atlas.
+            ////atlas.AddRegion("bat", 20, 0, 20, 20);
+            //// retrieve the slime region from the atlas.
+            //_slime = atlas.GetRegion("slime");
+            //// retrieve the bat region from the atlas.
+            //_bat = atlas.GetRegion("bat");
 
+            // Create the slime sprite from the atlas.
+            _slime = atlas.CreateSprite("slime");
+            _slime.Scale = new Vector2(4.0f, 4.0f); // Set the scale of the slime sprite
+
+            // Create the bat sprite from the atlas.
+            _bat = atlas.CreateSprite("bat");
+            _bat.Scale = new Vector2(4.0f, 4.0f); // Set the scale of the bat sprite"
 
             // TODO: use this.Content to load your game content here
         }
@@ -162,11 +176,17 @@ namespace SlimeGame
             // Begin the sprite batch to prepare for rendering.
             SpriteBatch.Begin(samplerState: SamplerState.PointClamp);
 
-            // Draw the slime texture region at a scale of 4.0
-            _slime.Draw(SpriteBatch, Vector2.Zero, Color.White, 0.0f, Vector2.One, 4.0f, SpriteEffects.None, 0.0f);
+            //// Draw the slime texture region at a scale of 4.0
+            //_slime.Draw(SpriteBatch, Vector2.Zero, Color.White, 0.0f, Vector2.One, 4.0f, SpriteEffects.None, 0.0f);
 
-            // Draw the bat texture region 10px to the right of the slime at a scale of 4.0
-            _bat.Draw(SpriteBatch, new Vector2(_slime.Width * 4.0f + 10, 0), Color.White, 0.0f, Vector2.One, 4.0f, SpriteEffects.None, 0.0f);
+            //// Draw the bat texture region 10px to the right of the slime at a scale of 4.0
+            //_bat.Draw(SpriteBatch, new Vector2(_slime.Width * 4.0f + 10, 0), Color.White, 0.0f, Vector2.One, 4.0f, SpriteEffects.None, 0.0f);
+
+            // Draw the slime sprite.
+            _slime.Draw(SpriteBatch, Vector2.Zero);
+
+            // Draw the bat sprite 10px to the right of the slime.
+            _bat.Draw(SpriteBatch, new Vector2(_slime.Width + 10, 0));
 
             // Always end the sprite batch when finished.
             SpriteBatch.End();

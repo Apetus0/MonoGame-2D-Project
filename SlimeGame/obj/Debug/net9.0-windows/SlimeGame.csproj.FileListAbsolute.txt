@@ -31,3 +31,37 @@ C:\Users\wmcar\Documents\VSRepos\SlimeGame\obj\Debug\net9.0-windows\SlimeGame.pd
 C:\Users\wmcar\Documents\VSRepos\SlimeGame\obj\Debug\net9.0-windows\SlimeGame.genruntimeconfig.cache
 C:\Users\wmcar\Documents\VSRepos\SlimeGame\obj\Debug\net9.0-windows\ref\SlimeGame.dll
 C:\Users\wmcar\Documents\VSRepos\SlimeGame\bin\Debug\net9.0-windows\Content\images\atlas-definition.xml
+C:\Users\wmcar\Documents\VSRepos\MonoGame 2D Project\SlimeGame\bin\Debug\net9.0-windows\Content\images\atlas-definition.xml
+C:\Users\wmcar\Documents\VSRepos\MonoGame 2D Project\SlimeGame\bin\Debug\net9.0-windows\Content\images\atlas-definitions.xml
+C:\Users\wmcar\Documents\VSRepos\MonoGame 2D Project\SlimeGame\bin\Debug\net9.0-windows\Content\images\atlas.xnb
+C:\Users\wmcar\Documents\VSRepos\MonoGame 2D Project\SlimeGame\bin\Debug\net9.0-windows\Content\images\logo.xnb
+C:\Users\wmcar\Documents\VSRepos\MonoGame 2D Project\SlimeGame\bin\Debug\net9.0-windows\SlimeGame.exe
+C:\Users\wmcar\Documents\VSRepos\MonoGame 2D Project\SlimeGame\bin\Debug\net9.0-windows\SlimeGame.deps.json
+C:\Users\wmcar\Documents\VSRepos\MonoGame 2D Project\SlimeGame\bin\Debug\net9.0-windows\SlimeGame.runtimeconfig.json
+C:\Users\wmcar\Documents\VSRepos\MonoGame 2D Project\SlimeGame\bin\Debug\net9.0-windows\SlimeGame.dll
+C:\Users\wmcar\Documents\VSRepos\MonoGame 2D Project\SlimeGame\bin\Debug\net9.0-windows\SlimeGame.pdb
+C:\Users\wmcar\Documents\VSRepos\MonoGame 2D Project\SlimeGame\bin\Debug\net9.0-windows\MonoGame.Framework.dll
+C:\Users\wmcar\Documents\VSRepos\MonoGame 2D Project\SlimeGame\bin\Debug\net9.0-windows\SharpDX.dll
+C:\Users\wmcar\Documents\VSRepos\MonoGame 2D Project\SlimeGame\bin\Debug\net9.0-windows\SharpDX.Direct2D1.dll
+C:\Users\wmcar\Documents\VSRepos\MonoGame 2D Project\SlimeGame\bin\Debug\net9.0-windows\SharpDX.Direct3D11.dll
+C:\Users\wmcar\Documents\VSRepos\MonoGame 2D Project\SlimeGame\bin\Debug\net9.0-windows\SharpDX.Direct3D9.dll
+C:\Users\wmcar\Documents\VSRepos\MonoGame 2D Project\SlimeGame\bin\Debug\net9.0-windows\SharpDX.DXGI.dll
+C:\Users\wmcar\Documents\VSRepos\MonoGame 2D Project\SlimeGame\bin\Debug\net9.0-windows\SharpDX.Mathematics.dll
+C:\Users\wmcar\Documents\VSRepos\MonoGame 2D Project\SlimeGame\bin\Debug\net9.0-windows\SharpDX.MediaFoundation.dll
+C:\Users\wmcar\Documents\VSRepos\MonoGame 2D Project\SlimeGame\bin\Debug\net9.0-windows\SharpDX.XAudio2.dll
+C:\Users\wmcar\Documents\VSRepos\MonoGame 2D Project\SlimeGame\bin\Debug\net9.0-windows\SharpDX.XInput.dll
+C:\Users\wmcar\Documents\VSRepos\MonoGame 2D Project\SlimeGame\bin\Debug\net9.0-windows\MonoGameLibrary.dll
+C:\Users\wmcar\Documents\VSRepos\MonoGame 2D Project\SlimeGame\bin\Debug\net9.0-windows\MonoGameLibrary.pdb
+C:\Users\wmcar\Documents\VSRepos\MonoGame 2D Project\SlimeGame\obj\Debug\net9.0-windows\mgcb.tool.restore
+C:\Users\wmcar\Documents\VSRepos\MonoGame 2D Project\SlimeGame\obj\Debug\net9.0-windows\SlimeGame.csproj.AssemblyReference.cache
+C:\Users\wmcar\Documents\VSRepos\MonoGame 2D Project\SlimeGame\obj\Debug\net9.0-windows\SlimeGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wmcar\Documents\VSRepos\MonoGame 2D Project\SlimeGame\obj\Debug\net9.0-windows\SlimeGame.AssemblyInfoInputs.cache
+C:\Users\wmcar\Documents\VSRepos\MonoGame 2D Project\SlimeGame\obj\Debug\net9.0-windows\SlimeGame.AssemblyInfo.cs
+C:\Users\wmcar\Documents\VSRepos\MonoGame 2D Project\SlimeGame\obj\Debug\net9.0-windows\SlimeGame.csproj.CoreCompileInputs.cache
+C:\Users\wmcar\Documents\VSRepos\MonoGame 2D Project\SlimeGame\obj\Debug\net9.0-windows\SlimeGame.sourcelink.json
+C:\Users\wmcar\Documents\VSRepos\MonoGame 2D Project\SlimeGame\obj\Debug\net9.0-windows\SlimeGame.csproj.Up2Date
+C:\Users\wmcar\Documents\VSRepos\MonoGame 2D Project\SlimeGame\obj\Debug\net9.0-windows\SlimeGame.dll
+C:\Users\wmcar\Documents\VSRepos\MonoGame 2D Project\SlimeGame\obj\Debug\net9.0-windows\refint\SlimeGame.dll
+C:\Users\wmcar\Documents\VSRepos\MonoGame 2D Project\SlimeGame\obj\Debug\net9.0-windows\SlimeGame.pdb
+C:\Users\wmcar\Documents\VSRepos\MonoGame 2D Project\SlimeGame\obj\Debug\net9.0-windows\SlimeGame.genruntimeconfig.cache
+C:\Users\wmcar\Documents\VSRepos\MonoGame 2D Project\SlimeGame\obj\Debug\net9.0-windows\ref\SlimeGame.dll

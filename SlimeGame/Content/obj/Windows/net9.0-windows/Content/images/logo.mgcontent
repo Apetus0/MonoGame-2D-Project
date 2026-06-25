@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/wmcar/Documents/VSRepos/SlimeGame/Content/images/logo.png</SourceFile>
+  <SourceFile>C:/Users/wmcar/Documents/VSRepos/MonoGame 2D Project/SlimeGame/Content/images/logo.png</SourceFile>
   <SourceTime>2026-06-24T16:21:52.9447617-04:00</SourceTime>
-  <DestFile>C:/Users/wmcar/Documents/VSRepos/SlimeGame/Content/bin/Windows/Content/images/logo.xnb</DestFile>
-  <DestTime>2026-06-24T18:32:31.2828473-04:00</DestTime>
+  <DestFile>C:/Users/wmcar/Documents/VSRepos/MonoGame 2D Project/SlimeGame/Content/bin/Windows/Content/images/logo.xnb</DestFile>
+  <DestTime>2026-06-24T18:47:46.9212013-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2025-10-20T10:25:32-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

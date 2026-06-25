@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/wmcar/Documents/VSRepos/SlimeGame/Content/images/atlas.png</SourceFile>
+  <SourceFile>C:/Users/wmcar/Documents/VSRepos/MonoGame 2D Project/SlimeGame/Content/images/atlas.png</SourceFile>
   <SourceTime>2026-06-24T17:14:45.487124-04:00</SourceTime>
-  <DestFile>C:/Users/wmcar/Documents/VSRepos/SlimeGame/Content/bin/Windows/Content/images/atlas.xnb</DestFile>
-  <DestTime>2026-06-24T18:32:31.2623525-04:00</DestTime>
+  <DestFile>C:/Users/wmcar/Documents/VSRepos/MonoGame 2D Project/SlimeGame/Content/bin/Windows/Content/images/atlas.xnb</DestFile>
+  <DestTime>2026-06-24T18:47:46.901675-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2025-10-20T10:25:32-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

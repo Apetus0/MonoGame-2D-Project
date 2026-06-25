@@ -4,8 +4,8 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/wmcar/Documents/VSRepos/SlimeGame/Content/images/atlas.png</File>
-    <File>C:/Users/wmcar/Documents/VSRepos/SlimeGame/Content/images/logo.png</File>
+    <File>C:/Users/wmcar/Documents/VSRepos/MonoGame 2D Project/SlimeGame/Content/images/atlas.png</File>
+    <File>C:/Users/wmcar/Documents/VSRepos/MonoGame 2D Project/SlimeGame/Content/images/logo.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

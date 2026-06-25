@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SlimeGame")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+961aacb420947418b987d76cf29036d617006556")]
 [assembly: System.Reflection.AssemblyProductAttribute("SlimeGame")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SlimeGame")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
