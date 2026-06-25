@@ -7,11 +7,18 @@ namespace SlimeGame
 {
     public class Game1 : Core
     {
-        // Defines the slime sprite.
-        private Sprite _slime;
+        // Defines the slime animated sprite.
+        private AnimatedSprite _slime;
 
-        // Defines the bat sprite.
-        private Sprite _bat;
+        // Defines the bat animated sprite.
+        private AnimatedSprite _bat;
+
+
+        //// Defines the slime sprite.
+        //private Sprite _slime;
+
+        //// Defines the bat sprite.
+        //private Sprite _bat;
 
 
         //// texture region that defines the slime sprite in the atlas.
@@ -61,14 +68,21 @@ namespace SlimeGame
             //// retrieve the bat region from the atlas.
             //_bat = atlas.GetRegion("bat");
 
-            // Create the slime sprite from the atlas.
-            _slime = atlas.CreateSprite("slime");
+            //// Create the slime sprite from the atlas.
+            //_slime = atlas.CreateSprite("slime");
+            //_slime.Scale = new Vector2(4.0f, 4.0f); // Set the scale of the slime sprite
+
+            //// Create the bat sprite from the atlas.
+            //_bat = atlas.CreateSprite("bat");
+            //_bat.Scale = new Vector2(4.0f, 4.0f); // Set the scale of the bat sprite"
+
+            // Create the slime animated sprite from the atlas.
+            _slime = atlas.CreateAnimatedSprite("slime-animation");
             _slime.Scale = new Vector2(4.0f, 4.0f); // Set the scale of the slime sprite
 
-            // Create the bat sprite from the atlas.
-            _bat = atlas.CreateSprite("bat");
+            // Create the bat animated sprite from the atlas.
+            _bat = atlas.CreateAnimatedSprite("bat-animation");
             _bat.Scale = new Vector2(4.0f, 4.0f); // Set the scale of the bat sprite"
-
             // TODO: use this.Content to load your game content here
         }
 
@@ -76,6 +90,11 @@ namespace SlimeGame
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
+            // Update the slime animated sprite.
+            _slime.Update(gameTime);
+            // Update the bat animated sprite.
+            _bat.Update(gameTime);
+
 
             // TODO: Add your update logic here
 
