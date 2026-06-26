@@ -13,7 +13,7 @@
 			<Frame region="slime-1" />
 			<Frame region="slime-2" />
 		</Animation>
-		<Animation name="bat-animation" delay="00">
+		<Animation name="bat-animation" delay="200">
 			<Frame region="bat-1" />
 			<Frame region="bat-2" />
 			<Frame region="bat-1" />
