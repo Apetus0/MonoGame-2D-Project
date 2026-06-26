@@ -50,6 +50,12 @@ namespace SlimeGame
         // Tracks the velocity of the bat.
         private Vector2 _batVelocity;
 
+        // Defines the tilemap to draw.
+        private Tilemap _tilemap;
+
+        // Defines the bounds of the room that the slime and bat are contained within.
+        private Rectangle _roomBounds;
+
         public Game1() : base("Dungeon Slime", 1280, 720, false)
         {
 
@@ -61,9 +67,13 @@ namespace SlimeGame
 
             base.Initialize();
 
-            // Set the initial position of the bat to be 10px
-            // to the right of the slime.
-            _batPosition = new Vector2(_slime.Width + 10, 0);
+            //// Set the initial position of the bat to be 10px
+            //// to the right of the slime.
+            //_batPosition = new Vector2(_slime.Width + 10, 0);
+
+            Rectangle screenBounds = GraphicsDevice.PresentationParameters.Bounds;
+
+
 
             // Assign the initial random velocity to the bat.
             AssignRandomBatVelocity();
