@@ -67,6 +67,18 @@ namespace SlimeGame
         // The background theme song
         private Song _themeSong;
 
+        // The SpriteFont Description used to draw text
+        private SpriteFont _font;
+
+        // Tracks the players score
+        private int _score;
+
+        //Defines the position to draw the score text at.
+        private Vector2 _scoreTextPosition;
+
+        // Defines the origin used when drawing the score text
+        private Vector2 _scoreTextOrigin;
+
         public Game1() : base("Dungeon Slime", 1280, 720, false)
         {
 
@@ -107,6 +119,14 @@ namespace SlimeGame
 
             // Start plkaying the background music
             Audio.PlaySong(_themeSong);
+
+            // Set the position of the score text to align to the Left edge of the 
+            // room bounds and to vertically be at the center of the first tile.
+            _scoreTextPosition = new Vector2(_roomBounds.Left, _tilemap.TileHeight * 0.5f);
+
+            // Set the origin of trhe text so it is Left-centered
+            float scoreTextOrigin = _font.MeasureString("Score").Y * 0.5f;
+            _scoreTextOrigin = new Vector2(0, scoreTextOrigin);
         }
 
         protected override void LoadContent()
@@ -178,6 +198,9 @@ namespace SlimeGame
             //// Set the theme music to repeat.
             //MediaPlayer.IsRepeating = true;
 
+
+            // Load the font
+            _font = Content.Load<SpriteFont>("fonts/04B_30");
         }
 
         protected override void Update(GameTime gameTime)
@@ -354,6 +377,9 @@ namespace SlimeGame
                 //_collectSoundEffect.Play();
                 //play the collect sound effect
                 Audio.PlaySoundEffect(_collectSoundEffect);
+
+                // Increase the player's score
+                _score += 100;
             }
 
 
@@ -677,6 +703,20 @@ namespace SlimeGame
             // Draw the bat sprite.
             _bat.Draw(SpriteBatch, _batPosition);
 
+            
+
+            // Draw the score 
+            SpriteBatch.DrawString(
+            _font,              // spriteFont
+            $"Score: {_score}", // text
+            _scoreTextPosition, // position
+            Color.White,        // color
+            0.0f,               // rotation
+            _scoreTextOrigin,   // origin
+            1.0f,               // scale
+            SpriteEffects.None, // effects
+            0.0f                // layerDepth
+             );
             // Always end the sprite batch when finished.
             SpriteBatch.End();
 
