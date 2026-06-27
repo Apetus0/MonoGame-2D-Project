@@ -64,6 +64,9 @@ namespace SlimeGame
         // The sound effect to play when the slime eats a bat.
         private SoundEffect _collectSoundEffect;
 
+        // The background theme song
+        private Song _themeSong;
+
         public Game1() : base("Dungeon Slime", 1280, 720, false)
         {
 
@@ -101,6 +104,9 @@ namespace SlimeGame
 
             // Assign the initial random velocity to the bat.
             AssignRandomBatVelocity();
+
+            // Start plkaying the background music
+            Audio.PlaySong(_themeSong);
         }
 
         protected override void LoadContent()
@@ -154,20 +160,23 @@ namespace SlimeGame
             // Load the collect sound effect
             _collectSoundEffect = Content.Load<SoundEffect>("audio/collect");
 
-            // Load the background theme music
-            Song theme = Content.Load<Song>("audio/theme");
+            // Load the backgrund theme music
+            _themeSong = Content.Load<Song>("audio/theme");
 
-            // Ensure media player is not already playing on device, if so, stop it
-            if (MediaPlayer.State == MediaState.Playing)
-            {
-                MediaPlayer.Stop();
-            }
+            //// Load the background theme music
+            //Song theme = Content.Load<Song>("audio/theme");
 
-            // Play the background theme music.
-            MediaPlayer.Play(theme);
+            //// Ensure media player is not already playing on device, if so, stop it
+            //if (MediaPlayer.State == MediaState.Playing)
+            //{
+            //    MediaPlayer.Stop();
+            //}
 
-            // Set the theme music to repeat.
-            MediaPlayer.IsRepeating = true;
+            //// Play the background theme music.
+            //MediaPlayer.Play(theme);
+
+            //// Set the theme music to repeat.
+            //MediaPlayer.IsRepeating = true;
 
         }
 
@@ -307,8 +316,10 @@ namespace SlimeGame
                 normal.Normalize();
                 _batVelocity = Vector2.Reflect(_batVelocity, normal);
 
+                ////Play the bounce sound effect
+                //_bounceSoundEffect.Play();
                 //Play the bounce sound effect
-                _bounceSoundEffect.Play();
+                Audio.PlaySoundEffect(_bounceSoundEffect);
             }
 
            
@@ -339,8 +350,10 @@ namespace SlimeGame
                 // Assign a new random velocity to the bat
                 AssignRandomBatVelocity();
 
+                ////play the collect sound effect
+                //_collectSoundEffect.Play();
                 //play the collect sound effect
-                _collectSoundEffect.Play();
+                Audio.PlaySoundEffect(_collectSoundEffect);
             }
 
 
@@ -427,6 +440,25 @@ namespace SlimeGame
                 _slimePosition.X += speed;
             }
 
+            //If the M key is pressed, toggle mute state for audio
+            if (Input.Keyboard.WasKeyJustPressed(Keys.M))
+            {
+                Audio.ToggleMute();
+            }
+
+            // If the + key is pressed, increase the volume
+            if (Input.Keyboard.WasKeyJustPressed(Keys.OemPlus))
+            {
+                Audio.SongVolume += 0.1f;
+                Audio.SoundEffectVolume += 0.1f;
+            }
+
+            // If the - key is pressed, decrease the volume
+            if (Input.Keyboard.WasKeyJustPressed(Keys.OemMinus))
+            {
+                Audio.SongVolume -= 0.1f;
+                Audio.SoundEffectVolume -= 0.1f;
+            }
         }
 
         private void CheckGamePadInput()
