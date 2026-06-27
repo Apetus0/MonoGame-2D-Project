@@ -211,7 +211,7 @@
               "RelativeDocumentMoniker": "Scenes\\TitleScene.cs",
               "ToolTip": "C:\\Users\\Gaymer\\source\\repos\\MonoGame-2D-Project\\SlimeGame\\Scenes\\TitleScene.cs",
               "RelativeToolTip": "Scenes\\TitleScene.cs",
-              "ViewState": "AgIAAMcAAAAAAAAAAAAYwOEAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAEBAAAAAAAAAAAAwBwBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-27T02:09:22.543Z",
               "EditorCaption": ""
@@ -370,8 +370,7 @@
               "RelativeToolTip": "Game1.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAowEEAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-27T02:43:59.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-27T02:43:59.919Z"
             },
             {
               "$type": "Document",
