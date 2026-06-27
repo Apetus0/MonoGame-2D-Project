@@ -1,9 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "KZpk254vL0k=",
+  "dgSpecHash": "OStDBSw5yjE=",
   "success": true,
   "projectFilePath": "C:\\Users\\Gaymer\\source\\repos\\MonoGame-2D-Project\\SlimeGame\\SlimeGame.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Gaymer\\.nuget\\packages\\brotlisharplib\\0.3.3\\brotlisharplib.0.3.3.nupkg.sha512",
+    "C:\\Users\\Gaymer\\.nuget\\packages\\csvhelper\\33.1.0\\csvhelper.33.1.0.nupkg.sha512",
+    "C:\\Users\\Gaymer\\.nuget\\packages\\flatredball.gumcommon\\2026.6.26.1\\flatredball.gumcommon.2026.6.26.1.nupkg.sha512",
+    "C:\\Users\\Gaymer\\.nuget\\packages\\flatredball.interpolationcore\\2025.4.22.1\\flatredball.interpolationcore.2025.4.22.1.nupkg.sha512",
+    "C:\\Users\\Gaymer\\.nuget\\packages\\gum.monogame\\2026.6.26.1\\gum.monogame.2026.6.26.1.nupkg.sha512",
+    "C:\\Users\\Gaymer\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Gaymer\\.nuget\\packages\\microsoft.netcore.app\\2.1.30\\microsoft.netcore.app.2.1.30.nupkg.sha512",
     "C:\\Users\\Gaymer\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.30\\microsoft.netcore.dotnetapphost.2.1.30.nupkg.sha512",
     "C:\\Users\\Gaymer\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.1.30\\microsoft.netcore.dotnethostpolicy.2.1.30.nupkg.sha512",
@@ -14,6 +20,7 @@
     "C:\\Users\\Gaymer\\.nuget\\packages\\monogame.content.builder.task\\3.8.4.1\\monogame.content.builder.task.3.8.4.1.nupkg.sha512",
     "C:\\Users\\Gaymer\\.nuget\\packages\\monogame.framework.windowsdx\\3.8.4.1\\monogame.framework.windowsdx.3.8.4.1.nupkg.sha512",
     "C:\\Users\\Gaymer\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Gaymer\\.nuget\\packages\\sharpcompress\\0.48.0\\sharpcompress.0.48.0.nupkg.sha512",
     "C:\\Users\\Gaymer\\.nuget\\packages\\sharpdx\\4.0.1\\sharpdx.4.0.1.nupkg.sha512",
     "C:\\Users\\Gaymer\\.nuget\\packages\\sharpdx.direct2d1\\4.0.1\\sharpdx.direct2d1.4.0.1.nupkg.sha512",
     "C:\\Users\\Gaymer\\.nuget\\packages\\sharpdx.direct3d11\\4.0.1\\sharpdx.direct3d11.4.0.1.nupkg.sha512",
@@ -22,7 +29,9 @@
     "C:\\Users\\Gaymer\\.nuget\\packages\\sharpdx.mathematics\\4.0.1\\sharpdx.mathematics.4.0.1.nupkg.sha512",
     "C:\\Users\\Gaymer\\.nuget\\packages\\sharpdx.mediafoundation\\4.0.1\\sharpdx.mediafoundation.4.0.1.nupkg.sha512",
     "C:\\Users\\Gaymer\\.nuget\\packages\\sharpdx.xaudio2\\4.0.1\\sharpdx.xaudio2.4.0.1.nupkg.sha512",
-    "C:\\Users\\Gaymer\\.nuget\\packages\\sharpdx.xinput\\4.0.1\\sharpdx.xinput.4.0.1.nupkg.sha512"
+    "C:\\Users\\Gaymer\\.nuget\\packages\\sharpdx.xinput\\4.0.1\\sharpdx.xinput.4.0.1.nupkg.sha512",
+    "C:\\Users\\Gaymer\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\system.data.datasetextensions.4.5.0.nupkg.sha512",
+    "C:\\Users\\Gaymer\\.nuget\\packages\\textcopy\\6.2.1\\textcopy.6.2.1.nupkg.sha512"
   ],
   "logs": []
 }

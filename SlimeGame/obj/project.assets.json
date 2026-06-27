@@ -2,6 +2,107 @@
   "version": 4,
   "targets": {
     "net10.0-windows": {
+      "BrotliSharpLib/0.3.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/BrotliSharpLib.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/BrotliSharpLib.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CsvHelper/33.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/CsvHelper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/CsvHelper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FlatRedBall.GumCommon/2026.6.26.1": {
+        "type": "package",
+        "dependencies": {
+          "BrotliSharpLib": "0.3.3",
+          "CsvHelper": "33.1.0",
+          "FlatRedBall.InterpolationCore": "2025.4.22.1",
+          "SharpCompress": "0.48.0"
+        },
+        "compile": {
+          "lib/net8.0/GumCommon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/GumCommon.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FlatRedBall.InterpolationCore/2025.4.22.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Data.DataSetExtensions": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/FlatRedBall.InterpolationCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/FlatRedBall.InterpolationCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
+      "Gum.MonoGame/2026.6.26.1": {
+        "type": "package",
+        "dependencies": {
+          "FlatRedBall.GumCommon": "2026.6.26.1",
+          "TextCopy": "6.2.1"
+        },
+        "compile": {
+          "lib/net8.0/MonoGameGum.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/MonoGameGum.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "Microsoft.NETCore.App/2.1.30": {
         "type": "package",
         "dependencies": {
@@ -481,6 +582,15 @@
           "build/netstandard2.0/_._": {}
         }
       },
+      "SharpCompress/0.48.0": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0/SharpCompress.dll": {}
+        },
+        "runtime": {
+          "lib/net10.0/SharpCompress.dll": {}
+        }
+      },
       "SharpDX/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -638,9 +748,37 @@
           }
         }
       },
+      "System.Data.DataSetExtensions/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Data.DataSetExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Data.DataSetExtensions.dll": {}
+        }
+      },
+      "TextCopy/6.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "compile": {
+          "lib/net6.0/TextCopy.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/TextCopy.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "MonoGameLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Gum.MonoGame": "2026.6.26.1"
+        },
         "compile": {
           "bin/placeholder/MonoGameLibrary.dll": {}
         },
@@ -651,6 +789,134 @@
     }
   },
   "libraries": {
+    "BrotliSharpLib/0.3.3": {
+      "sha512": "/z74VNg6etlQK/N1mSD5Tz2qQUZqc3RMiuv2F8Q/MOfvg4l7a6lDYhQQTPd9s9saSokh1GqUD7JTuunOiQid8w==",
+      "type": "package",
+      "path": "brotlisharplib/0.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "brotlisharplib.0.3.3.nupkg.sha512",
+        "brotlisharplib.nuspec",
+        "lib/net20/BrotliSharpLib.dll",
+        "lib/net20/BrotliSharpLib.xml",
+        "lib/net35/BrotliSharpLib.dll",
+        "lib/net35/BrotliSharpLib.xml",
+        "lib/net40/BrotliSharpLib.dll",
+        "lib/net40/BrotliSharpLib.xml",
+        "lib/net45/BrotliSharpLib.dll",
+        "lib/net45/BrotliSharpLib.xml",
+        "lib/net451/BrotliSharpLib.dll",
+        "lib/net451/BrotliSharpLib.xml",
+        "lib/netstandard1.1/BrotliSharpLib.dll",
+        "lib/netstandard1.1/BrotliSharpLib.xml",
+        "lib/netstandard1.3/BrotliSharpLib.dll",
+        "lib/netstandard1.3/BrotliSharpLib.xml",
+        "lib/netstandard2.0/BrotliSharpLib.dll",
+        "lib/netstandard2.0/BrotliSharpLib.xml"
+      ]
+    },
+    "CsvHelper/33.1.0": {
+      "sha512": "kqfTOZGrn7NarNeXgjh86JcpTHUoeQDMB8t9NVa/ZtlSYiV1rxfRnQ49WaJsob4AiGrbK0XDzpyKkBwai4F8eg==",
+      "type": "package",
+      "path": "csvhelper/33.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "csvhelper.33.1.0.nupkg.sha512",
+        "csvhelper.nuspec",
+        "lib/net462/CsvHelper.dll",
+        "lib/net462/CsvHelper.xml",
+        "lib/net47/CsvHelper.dll",
+        "lib/net47/CsvHelper.xml",
+        "lib/net48/CsvHelper.dll",
+        "lib/net48/CsvHelper.xml",
+        "lib/net8.0/CsvHelper.dll",
+        "lib/net8.0/CsvHelper.xml",
+        "lib/net9.0/CsvHelper.dll",
+        "lib/net9.0/CsvHelper.xml",
+        "lib/netstandard2.0/CsvHelper.dll",
+        "lib/netstandard2.0/CsvHelper.xml",
+        "lib/netstandard2.1/CsvHelper.dll",
+        "lib/netstandard2.1/CsvHelper.xml"
+      ]
+    },
+    "FlatRedBall.GumCommon/2026.6.26.1": {
+      "sha512": "1m06FUyuR4PaGS8j2IHSsFRSi/XHBjfBWE8gdv2d3+kVRIGOucVovwy2ExLfjynrl2dWGMauWNGtBNpIcSy+Tw==",
+      "type": "package",
+      "path": "flatredball.gumcommon/2026.6.26.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "flatredball.gumcommon.2026.6.26.1.nupkg.sha512",
+        "flatredball.gumcommon.nuspec",
+        "lib/net8.0/GumCommon.dll",
+        "lib/net8.0/GumCommon.xml"
+      ]
+    },
+    "FlatRedBall.InterpolationCore/2025.4.22.1": {
+      "sha512": "x95teSPBlV88KKbivY+peQ8AjqfXFgmGFnHw4Adds8UaO81zJKZAZZrXeetp5K+5mgd4t2hdtW4ItBFJ7ZwWig==",
+      "type": "package",
+      "path": "flatredball.interpolationcore/2025.4.22.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/InfoAboutProject.txt",
+        "contentFiles/any/netstandard2.0/InfoAboutProject.txt",
+        "flatredball.interpolationcore.2025.4.22.1.nupkg.sha512",
+        "flatredball.interpolationcore.nuspec",
+        "lib/netstandard2.0/FlatRedBall.InterpolationCore.dll",
+        "lib/netstandard2.0/FlatRedBall.InterpolationCore.xml"
+      ]
+    },
+    "Gum.MonoGame/2026.6.26.1": {
+      "sha512": "ipDzQjRUWmzdFmAUSoOhQiwZVhub1yP30UO66vSyEzsmL6Q0eX1TU0hRNxaRQvDgY1ECc4LW+JuOgMo+GmsihA==",
+      "type": "package",
+      "path": "gum.monogame/2026.6.26.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/Gum.Analyzers.dll",
+        "gum.monogame.2026.6.26.1.nupkg.sha512",
+        "gum.monogame.nuspec",
+        "lib/net8.0/MonoGameGum.dll",
+        "lib/net8.0/MonoGameGum.xml",
+        "lib/net9.0-android35.0/MonoGameGum.dll",
+        "lib/net9.0-android35.0/MonoGameGum.xml",
+        "lib/net9.0-ios18.0/MonoGameGum.dll",
+        "lib/net9.0-ios18.0/MonoGameGum.xml"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+      "sha512": "h3j/QfmFN4S0w4C2A6X7arXij/M/OVw3uQHSOFxnND4DyAzO1F9eMX7Eti7lU/OkSthEE0WzRsfT/Dmx86jzCw==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "Microsoft.NETCore.App/2.1.30": {
       "sha512": "Hs73dGereVEUeE0f9nGgNrTgESyhm/41pQ3gIW7P/Bwv8yBJwsw8T0Yb40uessXNU6HcfZstudf70+yaHHK/sw==",
       "type": "package",
@@ -1167,6 +1433,27 @@
         "netstandard.library.nuspec"
       ]
     },
+    "SharpCompress/0.48.0": {
+      "sha512": "6k0Sa9gf85Sz9Npy7jnn5UPerejrAa3FxU9Gq5T6PwFWHUhUIdF903TjPiJtrYjXFJsXbnccaWSNMHzEg27DwQ==",
+      "type": "package",
+      "path": "sharpcompress/0.48.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net10.0/SharpCompress.dll",
+        "lib/net48/SharpCompress.dll",
+        "lib/net5.0/SharpCompress.dll",
+        "lib/net6.0/SharpCompress.dll",
+        "lib/net7.0/SharpCompress.dll",
+        "lib/net8.0/SharpCompress.dll",
+        "lib/net9.0/SharpCompress.dll",
+        "lib/netstandard2.0/SharpCompress.dll",
+        "lib/netstandard2.1/SharpCompress.dll",
+        "sharpcompress.0.48.0.nupkg.sha512",
+        "sharpcompress.nuspec"
+      ]
+    },
     "SharpDX/4.0.1": {
       "sha512": "8YA1VFg1/K8Emb8FEZDobojcv1BLuppVo7CRJQEgA1V748VIMPBru0i0OnsCjLSThzTn7juOvH85qjFL9Grl1w==",
       "type": "package",
@@ -1362,6 +1649,49 @@
         "sharpdx.xinput.nuspec"
       ]
     },
+    "System.Data.DataSetExtensions/4.5.0": {
+      "sha512": "221clPs1445HkTBZPL+K9sDBdJRB8UN8rgjO3ztB0CQ26z//fmJXtlsr6whGatscsKGBrhJl5bwJuKSA8mwFOw==",
+      "type": "package",
+      "path": "system.data.datasetextensions/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net45/_._",
+        "lib/netstandard2.0/System.Data.DataSetExtensions.dll",
+        "ref/net45/_._",
+        "ref/netstandard2.0/System.Data.DataSetExtensions.dll",
+        "system.data.datasetextensions.4.5.0.nupkg.sha512",
+        "system.data.datasetextensions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "TextCopy/6.2.1": {
+      "sha512": "ryejViUBmHQ2XMie2AiRBn7KVKu2Gh/hqrctGSAUf1BufwfPjr+MWuACNBaiG+40TMbWRDJZgV73Tpl9hggeRw==",
+      "type": "package",
+      "path": "textcopy/6.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/monoandroid90/TextCopy.dll",
+        "lib/monoandroid90/TextCopy.xml",
+        "lib/net462/TextCopy.dll",
+        "lib/net462/TextCopy.xml",
+        "lib/net6.0/TextCopy.dll",
+        "lib/net6.0/TextCopy.xml",
+        "lib/netstandard2.0/TextCopy.dll",
+        "lib/netstandard2.0/TextCopy.xml",
+        "lib/netstandard2.1/TextCopy.dll",
+        "lib/netstandard2.1/TextCopy.xml",
+        "lib/xamarinios10/TextCopy.dll",
+        "lib/xamarinios10/TextCopy.xml",
+        "textcopy.6.2.1.nupkg.sha512",
+        "textcopy.nuspec"
+      ]
+    },
     "MonoGameLibrary/1.0.0": {
       "type": "project",
       "path": "../MonoGameLibrary/MonoGameLibrary.csproj",
@@ -1370,6 +1700,7 @@
   },
   "projectFileDependencyGroups": {
     "net10.0-windows": [
+      "Gum.MonoGame >= 2026.6.26.1",
       "MonoGame.Content.Builder.Task >= 3.8.*",
       "MonoGame.Framework.WindowsDX >= 3.8.*",
       "MonoGameLibrary >= 1.0.0"
@@ -1432,6 +1763,10 @@
         "framework": "net10.0-windows7.0",
         "targetAlias": "net10.0-windows",
         "dependencies": {
+          "Gum.MonoGame": {
+            "target": "Package",
+            "version": "[2026.6.26.1, )"
+          },
           "MonoGame.Content.Builder.Task": {
             "target": "Package",
             "version": "[3.8.*, )"

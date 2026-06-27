@@ -1,13 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "h4+94z2b0Ds=",
+  "dgSpecHash": "HWrRHipXjhA=",
   "success": true,
   "projectFilePath": "C:\\Users\\Gaymer\\source\\repos\\MonoGame-2D-Project\\MonoGameLibrary\\MonoGameLibrary.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Gaymer\\.nuget\\packages\\brotlisharplib\\0.3.3\\brotlisharplib.0.3.3.nupkg.sha512",
+    "C:\\Users\\Gaymer\\.nuget\\packages\\csvhelper\\33.1.0\\csvhelper.33.1.0.nupkg.sha512",
+    "C:\\Users\\Gaymer\\.nuget\\packages\\flatredball.gumcommon\\2026.6.26.1\\flatredball.gumcommon.2026.6.26.1.nupkg.sha512",
+    "C:\\Users\\Gaymer\\.nuget\\packages\\flatredball.interpolationcore\\2025.4.22.1\\flatredball.interpolationcore.2025.4.22.1.nupkg.sha512",
+    "C:\\Users\\Gaymer\\.nuget\\packages\\gum.monogame\\2026.6.26.1\\gum.monogame.2026.6.26.1.nupkg.sha512",
+    "C:\\Users\\Gaymer\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Gaymer\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.4.1\\monogame.framework.desktopgl.3.8.4.1.nupkg.sha512",
     "C:\\Users\\Gaymer\\.nuget\\packages\\monogame.library.openal\\1.24.3.2\\monogame.library.openal.1.24.3.2.nupkg.sha512",
     "C:\\Users\\Gaymer\\.nuget\\packages\\monogame.library.sdl\\2.32.2.1\\monogame.library.sdl.2.32.2.1.nupkg.sha512",
-    "C:\\Users\\Gaymer\\.nuget\\packages\\nvorbis\\0.10.4\\nvorbis.0.10.4.nupkg.sha512"
+    "C:\\Users\\Gaymer\\.nuget\\packages\\nvorbis\\0.10.4\\nvorbis.0.10.4.nupkg.sha512",
+    "C:\\Users\\Gaymer\\.nuget\\packages\\sharpcompress\\0.48.0\\sharpcompress.0.48.0.nupkg.sha512",
+    "C:\\Users\\Gaymer\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\system.data.datasetextensions.4.5.0.nupkg.sha512",
+    "C:\\Users\\Gaymer\\.nuget\\packages\\textcopy\\6.2.1\\textcopy.6.2.1.nupkg.sha512"
   ],
   "logs": []
 }

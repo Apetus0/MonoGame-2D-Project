@@ -1,9 +1,14 @@
-﻿using Microsoft.VisualBasic.Devices;
+﻿using System;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using MonoGameGum;
+using Gum.Forms.Controls;
+using Gum.GueDeriving;
 using MonoGameLibrary;
 using MonoGameLibrary.Scenes;
+
 
 namespace SlimeGame.Scenes
 {
@@ -48,6 +53,13 @@ namespace SlimeGame.Scenes
 
         // The speed that the background pattern scrolls
         private float _scrollSpeed = 50.0f;
+
+        // UI
+        private SoundEffect _uiSoundEffect;
+        private Panel _titleScreenButtonsPanel;
+        private Panel _optionsPanel;
+        private Button _optionsButton;
+        private Button _optionsBackButton;
 
         public override void Initialize()
         {
@@ -166,6 +178,59 @@ namespace SlimeGame.Scenes
 
             // Always end the sprite batch when finished.
             Core.SpriteBatch.End();
+        }
+
+        private void CreateTitlePanel()
+        {
+            // Create a container to hold all of our buttons
+            _titleScreenButtonsPanel = new();
+            _titleScreenButtonsPanel.Dock(Gum.Wireframe.Dock.Fill);
+            _titleScreenButtonsPanel.AddToRoot();
+
+            var startButton = new Button();
+            startButton.Anchor(Gum.Wireframe.Anchor.BottomLeft);
+            startButton.X = 50;
+            startButton.Y = -12;
+            startButton.Width = 70;
+            startButton.Text = "Start";
+            startButton.Click += HandleStartClicked;
+            _titleScreenButtonsPanel.AddChild(startButton);
+
+            _optionsButton = new Button();
+            _optionsButton.Anchor(Gum.Wireframe.Anchor.BottomRight);
+            _optionsButton.X = 50;
+            _optionsButton.Y = -12;
+            _optionsButton.Width = 70;
+            _optionsButton.Text = "Options";
+            _optionsButton.Click += HandleOptionsClicked;
+            _titleScreenButtonsPanel.AddChild(_optionsButton);
+
+            startButton.IsFocused = true;
+
+        }
+
+        private void HandleStartClicked(object sender, EventArgs e)
+        {
+            // A UI interaction occurred, play the sound effect
+            Core.Audio.PlaySoundEffect(_uiSoundEffect);
+
+            // Change to the game scene to start the game
+            Core.ChangeScene(new GameScene());
+        }
+
+        private void HandleOptionsClicked(object sender, EventArgs e)
+        {
+            // A UI interaction occurred, play the sound effect
+            Core.Audio.PlaySoundEffect(_uiSoundEffect);
+
+            // Set the title panel to be invisible
+            _titleScreenButtonsPanel.IsVisible = false;
+
+            // Set the options panel to be visible
+            _optionsPanel.IsVisible = true;
+
+            // Give thee back button opn the options panel focus
+            _optionsBackButton.IsFocused = true;
         }
 
     }
