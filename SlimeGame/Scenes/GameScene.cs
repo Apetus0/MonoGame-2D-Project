@@ -154,7 +154,7 @@ namespace SlimeGame.Scenes
             background.Dock(Dock.Fill);
             background.FillColor = Color.DarkBlue;
             background.IsFilled = true;
-            //_pausePanel.AddChild(background);
+            _pausePanel.AddChild(background);
 
             var textInstance = new TextRuntime();
             textInstance.Text = "PAUSED";

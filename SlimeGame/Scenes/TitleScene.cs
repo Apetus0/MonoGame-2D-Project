@@ -1,4 +1,5 @@
 ﻿using System;
+using SlimeGame.Content.UI;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Graphics;
@@ -7,6 +8,7 @@ using MonoGameGum;
 using Gum.Forms.Controls;
 using Gum.GueDeriving;
 using MonoGameLibrary;
+using MonoGameLibrary.Graphics;
 using MonoGameLibrary.Scenes;
 
 
@@ -60,6 +62,8 @@ namespace SlimeGame.Scenes
         private Panel _optionsPanel;
         private Button _optionsButton;
         private Button _optionsBackButton;
+
+       
 
         public override void Initialize()
         {
