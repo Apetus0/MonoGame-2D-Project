@@ -88,5 +88,21 @@ namespace SlimeGame.GameObjects
 
             return new Circle(x, y, radius);
         }
+
+        // Updates the bat
+        public void Update(GameTime gameTime)
+        {
+            //Updates the animated sprite
+            _sprite.Update(gameTime);
+
+            // Updates the position of the bat based on the velocity
+            Position += _velocity;
+        }
+
+        // Draws the bat
+        public void Draw()
+        {
+            _sprite.Draw(Core.SpriteBatch, Position);
+        }
     }
 }

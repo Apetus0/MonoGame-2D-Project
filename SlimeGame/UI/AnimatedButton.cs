@@ -9,7 +9,7 @@ using Microsoft.Xna.Framework.Input;
 using Gum.GueDeriving;
 using MonoGameLibrary.Graphics;
 
-namespace SlimeGame.Content.UI
+namespace SlimeGame.UI
 {
     /// A custom button implementation that inherits from Gum's Button class to provide
     /// animated visual feedback when focused.

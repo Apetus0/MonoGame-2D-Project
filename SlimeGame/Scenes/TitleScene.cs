@@ -1,5 +1,4 @@
 ﻿using System;
-using SlimeGame.Content.UI;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Graphics;
@@ -10,6 +9,7 @@ using Gum.GueDeriving;
 using MonoGameLibrary;
 using MonoGameLibrary.Graphics;
 using MonoGameLibrary.Scenes;
+using SlimeGame.UI;
 
 
 namespace SlimeGame.Scenes

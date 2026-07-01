@@ -7,7 +7,7 @@ using Gum.Forms.Controls;
 using MonoGameGum.GueDeriving;
 using MonoGameLibrary.Graphics;
 
-namespace SlimeGame.Content.UI
+namespace SlimeGame.UI
 {
     // A custom slider control that inherits from Gum's Slider class
     public class OptionsSlider : Slider
